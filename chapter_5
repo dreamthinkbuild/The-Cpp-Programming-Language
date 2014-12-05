@@ -1,0 +1,26 @@
+1.关键是了解pointer,array和reference声明的阅读顺序.(书写顺序呢?)
+char* p;
+int a[10];
+
+
+
+
+2.It depends(:
+
+3.
+
+
+4.了解pointer和reference的用处.由这道题目引出的问题:指针和数组有什么关系?它们各自是怎么实现的?
+void swap(int* a, int* b){
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+void swap(int& a, int& b){
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+5.
